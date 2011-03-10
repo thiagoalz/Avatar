@@ -1,0 +1,8 @@
+Distributed two phase commit simulation program.
+
+*Concurrency control (primary copy)
+*Really distributed operation
+*Configurable for N servers
+
+The program is based on a fully connected topology, but the control algorithm allows it to use another one!
+The primary copy can be numbered, so if a site goes down, it gets te next primary copy.
