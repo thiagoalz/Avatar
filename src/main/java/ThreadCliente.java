@@ -214,7 +214,7 @@ public class ThreadCliente extends Thread{
     }
     
     /**
-    * Este método captura a hora do sistema
+    * Este mÃ©todo captura a hora do sistema
     * @return Retorna um String contendo a hora obtida
     */
     public String hora(){

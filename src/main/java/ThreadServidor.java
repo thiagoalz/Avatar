@@ -5,7 +5,7 @@ import simulacao.sgbd.Coordenador;
 
 /**
  * @author Thiago Lechuga
- * @author João Ferreira
+ * @author JoÃ£o Ferreira
  *
  */
 public class ThreadServidor extends Thread {
@@ -85,7 +85,7 @@ public class ThreadServidor extends Thread {
         		bd.servidorLiberarBloqueio(this.numero);
         		msgRes="SOK";
         	}else{
-        		msgRes="Comando n�o reconhecido";
+        		msgRes="Comando não reconhecido";
         		s.getSocket().close();
         	}
         }

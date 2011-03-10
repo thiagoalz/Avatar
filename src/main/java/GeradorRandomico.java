@@ -18,10 +18,10 @@ import java.util.*;
 public class GeradorRandomico {
     private Random r;
     
-    private int operRecurso; //operaÁ„o a ser realizada sobre recurso / 0 - leitura / 1 - escrita
+    private int operRecurso; //opera√ß√£o a ser realizada sobre recurso / 0 - leitura / 1 - escrita
     private int qtdRecurso; //Qnt de recursos do servidor
-    private int qtdMsgTrans; //Qtd de mensagens por transaÁ„o
-    private int waitTime; //Tempo m·ximo de espera
+    private int qtdMsgTrans; //Qtd de mensagens por transa√ß√£o
+    private int waitTime; //Tempo m√°ximo de espera
     /** Creates a new instance of GeradorRandomico */
     public GeradorRandomico(int qtdRecurso, int qtdMsgTrans, int waitTime) {
         r = new Random();
