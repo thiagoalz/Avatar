@@ -1,5 +1,5 @@
 /*
- * Conex„oSocket.java
+ * Conex√£oSocket.java
  *
  * Created on 22 de Outubro de 2005, 13:05
  *
@@ -22,7 +22,7 @@ public class ConexaoSocket{
 	private PrintWriter escreve;
 	private BufferedReader leSocket;
 	
-    /** Creates a new instance of Conex„oSocket */
+    /** Creates a new instance of Conex√£oSocket */
     
     public ConexaoSocket(String ip, int porta)throws UnknownHostException,IOException{
     	sock=new Socket(ip,porta);
